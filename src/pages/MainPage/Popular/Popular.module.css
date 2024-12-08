@@ -1,0 +1,10 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 48px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}

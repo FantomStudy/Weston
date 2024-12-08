@@ -1,0 +1,25 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 15px 30px;
+
+}
+.a_btn.filled {
+  color: white;
+  background: black;
+}
+.a_btn.no_line {
+  background-color: transparent;
+  color: black;
+}
