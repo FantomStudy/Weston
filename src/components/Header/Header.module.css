@@ -3,6 +3,7 @@
   left: 0;
   top: 0;
   width: 100%;
+  padding: 1.5rem 0;
   background: transparent;
 }
 .wrapper {
@@ -21,6 +22,9 @@
   padding-bottom: 5px;
   overflow: hidden;
 }
+.nav_item.light {
+  color: white;
+}
 .nav_item::after {
   content: "";
   position: absolute;
@@ -31,6 +35,9 @@
   height: 1.55px;
   border-radius: 10px;
   transition: left 0.25s ease-in-out;
+}
+.nav_item.light::after {
+  background-color: white;
 }
 .nav_item:hover::after {
   left: 0;

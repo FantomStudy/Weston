@@ -1,19 +1,19 @@
-#root {
-  max-width: 1440px;
+/* #root {
+   max-width: 1440px;
   margin: 0 auto;
   padding: 0 1rem;
-}
+} */
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 0rem 1rem;
 }
 .a_btn {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   padding: 15px 30px;
-
+  color: black;
 }
 .a_btn.filled {
   color: white;
@@ -21,5 +21,13 @@
 }
 .a_btn.no_line {
   background-color: transparent;
-  color: black;
+}
+.a_btn.outline {
+  text-transform: uppercase;
+  border: 1px black solid;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1024px;
+  }
 }

@@ -1,0 +1,20 @@
+.about_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_block {
+  width: 42%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  grid-gap: 36px;
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: calc(1em / 5);
+}
+.desc{
+    line-height: 26px;
+}

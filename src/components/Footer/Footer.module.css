@@ -1,0 +1,86 @@
+.footer {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 90px;
+}
+.footer p,
+.footer_link,
+.footer_title {
+  color: white;
+  line-height: 26px;
+}
+.footer_title {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_block,
+.form_block {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 36px;
+}
+.form_block {
+  min-width: 40%;
+}
+.form {
+  display: flex;
+  grid-gap: 24px;
+  position: relative;
+}
+.form_input {
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  padding-left: 60px;
+  border: none;
+}
+.form::before {
+  content: url(/fluent_mail-16-filled.svg);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 35px;
+  transform: translateY(-50%);
+}
+.footer_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  border: 1px white solid;
+}
+.logo_image {
+  filter: invert();
+}
+
+.follow_wrapper {
+  display: flex;
+  grid-gap: 16px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px;
+}
+.social_logo {
+  width: 25px;
+}
+
+.copyright {
+  border-top: 1px solid white;
+  padding-top: 16px;
+  margin-top: 30px;
+}
+@media (max-width: 1440px) {
+    .footer_wrapper{
+        
+    }
+}

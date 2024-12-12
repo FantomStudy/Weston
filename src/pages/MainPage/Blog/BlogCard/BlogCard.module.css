@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  grid-gap: 24px;
+  padding: 16px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+  line-height: 26px;
+}
+.photo {
+  width: 100%;
+}
+.title {
+  text-transform: uppercase;
+  max-width: 95%;
+}
+.desc {
+  letter-spacing: calc(1em / 21);
+}
